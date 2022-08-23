@@ -1,0 +1,13 @@
+.mainBlock {
+    height: 100vh;/* vh это viewport height. 100vh обозначает всю высоту окна браузера */
+    background-color:pink;
+}
+
+.greeting {
+    width: 300px;
+
+}
+
+.photo {
+
+}
