@@ -2,12 +2,24 @@
     height: 100vh;/* vh это viewport height. 100vh обозначает всю высоту окна браузера */
     background-color:pink;
 }
+.container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto; /* 0- сверху и снизу,auto- встанет посередине(слева и справа будет одинаковое расстояние */
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .greeting {
     width: 300px;
+    background-color: grey;
 
 }
 
 .photo {
-
+    width: 300px;
+    height: 400px;
+    background-color: grey;
 }
