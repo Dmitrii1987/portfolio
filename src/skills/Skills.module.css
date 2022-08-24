@@ -4,13 +4,16 @@
 }
 
 .skillsContainer {
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    
 
 }
 .title {
-    background-color:blueviolet
+    background-color:blueviolet;
 }
 
 .skills {
     border: 1px solid;
+    width: 100%;
 }
