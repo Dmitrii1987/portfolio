@@ -1,0 +1,21 @@
+.hireBlock {
+    height: 30vh;
+    background-color: rgb(177, 248, 12);
+}
+
+.hireMeContainer {
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto; /* 0- сверху и снизу,auto- встанет посередине(слева и справа будет одинаковое расстояние */
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap; /* на мобильных устройствах контент начинает выстраиваться один блок под другим*/
+    
+
+}
+.title {
+    background-color:rgb(48, 212, 45);
+}
