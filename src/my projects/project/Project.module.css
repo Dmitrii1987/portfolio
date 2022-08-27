@@ -1,0 +1,14 @@
+.project {
+    width: 250px;
+    background-color:gold;
+    flex-direction: column;  /* colomn - это главная ось*/
+    display: flex;
+    align-items: center; /*align-items выравнивает по всторостепенной оси */
+    text-align: center; /*выравнивает строчный элемент внутри блочного*/
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+}
