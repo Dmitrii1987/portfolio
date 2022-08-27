@@ -11,12 +11,18 @@ const MyProjects = () => {
             <div className={`${sContainer.container} ${s.projectsContainer}`}>
                 <h2 className={s.title} >My projects</h2>
                 <div className={s.projects}>
-                    <Project title={'JS'} description={'logcccsflkopccc safccc  ffcccaa ff saaccccccsssgfsdrcs'} />
-                    
-                    <Project title={'React'} description={'loa s fg sggggg s gggg sfggcacrcs'} />
+                    <Project
+                        title={'JS'}
+                        projectName={'Todolist'} 
+                        description={'logcccsflkopccc safccc  ffcccaa f'}
+                       />
+                    <Project
+                        title={'React'}
+                        projectName={'Social Network'}
+                        description={'loa s fg sggggg s gggg sfggcacrcs'}
+                    />
                 </div>
             </div>
-            
         </div>
     );
 };

@@ -4,11 +4,15 @@
     flex-direction: column;  /* colomn - это главная ось*/
     display: flex;
     align-items: center; /*align-items выравнивает по всторостепенной оси */
-    text-align: center; /*выравнивает строчный элемент внутри блочного*/
+    text-align: left; /*выравнивает строчный элемент внутри блочного*/
 }
 
-.icon {
-    height: 60px;
+.image {
+    height: 80px;
     width: 60px;
-    background-color: blue;
+    background-color: rgb(216, 18, 18);
+}
+
+.projectName {
+    text-align: left;
 }

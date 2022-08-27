@@ -5,7 +5,7 @@ const Skill = (props: any) => {
     return (
         <div className={s.skill}>
             <div className={s.icon}>
-
+                
             </div>
             <h3>
                 {props.title}
